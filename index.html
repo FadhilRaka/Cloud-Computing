@@ -8,19 +8,20 @@
     body {
       font-family: Arial, sans-serif;
       margin: 40px;
-      background-color: #f4f4f9;
+      background-color: #e0f0ff; 
     }
     .container {
       max-width: 600px;
       margin: auto;
-      background: white;
+      background: linear-gradient(to bottom right, #ffffff, #d0eaff);
       padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
       text-align: center;
     }
     h1 {
-      color: #333;
+      color: #005f99;
+      margin-bottom: 20px;
     }
     .profile-pic {
       width: 200px;
@@ -28,6 +29,11 @@
       object-fit: cover;
       border-radius: 50%;
       margin-bottom: 20px;
+      border: 4px solid #007acc; 
+      transition: transform 0.3s ease;
+    }
+    .profile-pic:hover {
+      transform: scale(1.05); 
     }
     .info {
       text-align: left;
@@ -37,10 +43,11 @@
       font-weight: bold;
       display: block;
       margin-bottom: 5px;
+      color: #004d80; 
     }
     .info p {
       margin: 0 0 15px;
-      color: #555;
+      color: #336699; 
     }
   </style>
 </head>
